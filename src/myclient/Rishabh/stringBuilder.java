@@ -6,7 +6,7 @@ public class stringBuilder {
         StringBuilder builder = new StringBuilder();
 
         for (int i = 0; i < 26; i++) {
-            char sum = (char) ('a' + i);
+            char sum = (char) ('a'  + i);
             builder.append(sum);
         }
         System.out.println(builder);
