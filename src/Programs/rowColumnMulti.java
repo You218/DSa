@@ -25,7 +25,7 @@ public class rowColumnMulti {
         int[][] matrix = {{11, 22, 33},
                 {44, 55, 66},
                 {77, 88, 99}};
-        int value = 88;
+        int value = 77;
         int sumRC = 0;
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[row].length; col++) {
@@ -54,10 +54,8 @@ public class rowColumnMulti {
 
                 }
             }
-
-            System.out.println(sum);
-
-
         }
+
+        System.out.println(sum);
     }
 }
